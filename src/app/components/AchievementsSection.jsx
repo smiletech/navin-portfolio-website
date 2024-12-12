@@ -26,7 +26,7 @@ const achievementsList = [
   },
   {
     metric: "Years",
-    value: "3.5",
+    value: "4",
   },
 ];
 
@@ -50,7 +50,7 @@ const AchievementsSection = () => {
                   configs={(_, index) => {
                     return {
                       mass: 1,
-                      friction: 100,
+                      friction: 80,
                       tensions: 140 * (index + 1),
                     };
                   }}

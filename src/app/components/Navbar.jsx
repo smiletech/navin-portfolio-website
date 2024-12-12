@@ -28,8 +28,7 @@ const Navbar = () => {
       <div className="flex container lg:py-4 flex-wrap items-center justify-between mx-auto px-4 py-2">
         <Link
           href={"/"}
-          className="flex"
-          // className="text-2xl md:text-5xl text-white font-semibold w-20"
+          className="text-2xl md:text-5xl text-white font-semibold w-[200px]"
         >
           {/* LOGO   */}
         <SVGComponent/>
@@ -68,19 +67,18 @@ const Navbar = () => {
 
 export default Navbar
 
-const SVGComponent = (props) => (
+export const SVGComponent = (props) => (
   <svg
     id={205966512}
     viewBox="0 0 370 74.43007497327018"
-    height={74.43007497327018}
-    width={370}
+    height={54.43007497327018}
+    width={300}
     style={{
-      width: 370,
-      height: "74.4301px",
-      position: "absolute",
-      top: "50%",
-      left: "50%",
-      transform: "translate(-50%, -50%) scale(0.435676)",
+      
+      // position: "absolute",
+      // top: "50%",
+      // left: "50%",
+      // transform: "translate(-50%, -50%) scale(0.435676)",
       zIndex: 0,
       cursor: "pointer",
       overflow: "visible",
